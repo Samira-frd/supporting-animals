@@ -1,0 +1,132 @@
+@media screen and (max-width: 1600px) {
+    .wolf{
+        height: 841px;
+    }
+    .birds{
+        height: 840px;
+    }
+}
+
+
+@media screen and (max-width: 1400px) {
+    .wolf{
+        height: 739px;
+    }
+    .birds{
+        height: 740px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .wolf .wolf-container h1 {
+        font-size: 30px;
+        margin-right: 10%;
+        margin-bottom: 8%;
+    }
+    .wolf .wolf-container p {
+        font-size: 17px;
+    }
+    
+}
+
+@media screen and (max-width: 992px){
+    .header{
+        height: 600px;
+    }
+
+    .moon {
+        top: 76%;
+        left: 43%;
+        width: 150px;
+    }
+
+    .wolf{
+        height: 590px;
+    }
+    .wolf .wolf-container h1 {
+        font-size: 25px;
+        margin-right: 10%;
+        margin-bottom: 8%;
+    }
+    .wolf .wolf-container p {
+        font-size: 16px;
+        width: 35%;
+    }
+    .birds{
+        height: 590px;
+    }
+    .birds .birds-container{
+        margin-left: 17%;
+    }
+    .birds .birds-container h1{
+        font-size: 30px;
+    }
+    .birds .birds-container p{
+        font-size: 17px;
+        margin-bottom: 17%;
+    }
+}
+
+/* @media screen and (max-width: 768px){    
+    .header{
+        height: 500px;
+    }
+    .moon {
+        width: 110px;
+    }
+    .wolf{
+        height: 433px;
+    }
+    .wolf .wolf-container h1 {
+        font-size: 25px;
+        margin-right: 10%;
+        margin-bottom: 3%;
+    }
+    .wolf .wolf-container p{
+        margin-bottom: 0;
+        width: 46%;
+        margin-top: 40px;
+
+    }
+
+    .birds{
+        height: 433px;
+    }
+    .birds .birds-container h1{
+        font-size: 25px;
+    }
+    .birds .birds-container p{
+        font-size: 17px;
+        margin-bottom: 10%;
+    }
+
+    
+} */
+
+@media screen and (max-width: 768px){
+    .header{
+        height: 400px;
+    }
+    .moon {
+        width: 100px;
+    }
+    .wolf .wolf-container h1{
+        color: #000;
+        font-size: 20px;
+        margin-top: 10%;
+        margin-right: 6%;
+    }
+    .wolf .wolf-container p{
+        display: none;
+    }
+
+    .birds .birds-container p{
+        display: none;
+    }
+    .birds .birds-container h1{
+        margin-left: 35%;
+    }
+
+
+}

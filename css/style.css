@@ -1,0 +1,231 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+ 
+
+.header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.menu-items{
+    margin: auto;
+}
+
+.wolf-title{
+text-align: right;
+}
+
+.navbar{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li{
+    margin: 0px 30px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s eas;
+    -moz-transition: all 0.3s eas;
+    -ms-transition: all 0.3s eas;
+    -o-transition: all 0.3s eas;
+}
+
+.navbar ul li a:hover{
+    color: rgb(194, 25, 25);
+}
+
+.for{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -3px;
+}
+
+.sky{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.moon{
+    position: absolute;
+    top: 80%;
+    left: 43%;
+    width: 200px;
+}
+
+.wolf{
+    width: 100%;
+    height: 700px;   
+    z-index: 3;
+    background-size:cover ;
+    background-image: url(../images/Vectore-Background.svg);
+    
+}
+
+.wolf .wolf-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.wolf .wolf-container h1{
+    color: #fff;
+    font-size: 35px;
+    margin-right: 2%;
+    margin-bottom: 10%;
+    
+}
+
+
+.wolf .wolf-container p{
+    font-size: 20px;
+    width: 50%;
+    margin-right: 5%;
+    padding-bottom: 7%;
+    text-align: justify;
+}
+
+.birds{
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/Vectore-Background\ -\ 02.svg);
+    background-size: cover;
+}
+
+.birds .birds-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10%;
+    
+}
+
+.birds .birds-container h1{
+    color: #fff;
+    font-size: 35px;
+    margin-top: 10%;    
+}
+
+.birds .birds-container p{
+    color: #fff;
+    width: 50%;
+    font-size: 20px;
+    margin-bottom: 10%;
+    text-align: justify;
+}
+
+.overlay{
+    width: 100%;
+    height: 400px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+
+.overlay .container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.overlay .container form{
+    padding: 5% 0;
+    
+}
+.overlay .container .footer-little{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.overlay .container .footer-little h1{
+    margin-bottom: 5%;
+    font-size: 40px;
+    
+}
+.overlay .container .footer-little p{
+    text-align: justify;
+}
+
+.overlay .container button{
+    padding: 1px 70px;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+}
+
+.overlay .container button:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.overlay .container .social{
+    width: 60%;
+    
+}
+
+.overlay .container .social ul li{
+    list-style: none;
+}
+
+
+
+.overlay .design{
+    background-color: #000; 
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.overlay .design p{
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+
+
+
+
+
